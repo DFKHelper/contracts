@@ -1,4 +1,4 @@
-= %%PROJECT_NAME%% Contracts
+= DFKHelper Contracts
 :table-stripes: none
 :table-caption: Contracts Table
 
@@ -13,26 +13,31 @@ endif::[]
 :fn-deprecated: footnote:deprecated[Deprecated. This contract is at the end of its lifecycle and will be disabled soon]
 :fn-discontinued: footnote:discontinued[Discontinued. This contract is no longer active, and is still here for posterity]
 
-This repository contains all contracts related to = %%PROJECT_NAME%%. Our intention is to help raise the standard of
+This repository contains all contracts related to DFKHelper.
+Our intention is to help raise the standard of
 transparency across blockchain development.
 
 [NOTE]
 ====
-The existence of a contract in this repository does not guarantee that a contract has, or ever will be,
-used or integrated into the %%PROJECT_NAME%% ecosystem.
+The existence of a contract in this repository does not guarantee that a contract has, or ever will be, used or integrated into the DFKHelper ecosystem.
 ====
 
 .Security contact
 [%collapsible]
 ====
-DirtyCajunRice#0001 (Discord)
+DirtyCajunRice (Discord)
 ====
 
-.Ethereum
+.DFK Chain
 [cols="^.^,^.^,^.^,^.^"]
 |===
 h|Category h|Contract h|Address h|Explorer Link
-s|Token (ERC20) |MyToken |`0x0000000000000000000000000000000000000000` |https://etherscan.io/address/0x32614E7D3C52Cd66BF2cb8CC17884749E4B070d4[Etherscan,role=external,window=_blank]
+s|Utility |NFTUtilities |`0xd688cdf21f50BB1dA4e732ff869544cAB0c66eCb` |https://subnets.avax.network/defi-kingdoms/address/0xd688cdf21f50BB1dA4e732ff869544cAB0c66eCb[Subnet Explorer,role=external,window=_blank]
 |===
 
-== Setup
+.Klaytn
+[cols="^.^,^.^,^.^,^.^"]
+|===
+h|Category h|Contract h|Address h|Explorer Link
+s|Utility |NFTUtilities |`0x403b08fB7951c017313b0f2eAfB4A2Fd98D4dF46` |https://scope.klaytn.com/account/0x403b08fB7951c017313b0f2eAfB4A2Fd98D4dF46[Klaytnscope,role=external,window=_blank]
+|===
