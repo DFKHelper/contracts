@@ -15,8 +15,8 @@
     "nftutilities:dfk:upgrade": "yarn upgrade:dfk --name NFTUtilities --address 0xd688cdf21f50BB1dA4e732ff869544cAB0c66eCb",
     "nftutilities:dfk:verify": "yarn verify:dfk 0xd688cdf21f50BB1dA4e732ff869544cAB0c66eCb",
     "nftutilities:klaytn:deploy": "yarn deploy:klaytn NFTUtilities",
-    "nftutilities:klaytn:upgrade": "yarn upgrade:klaytn --name NFTUtilities --address 0x0423cC396ef9FB21B9De812859E9d4c6742ECE26",
-    "nftutilities:klaytn:verify": "yarn verify:klaytn 0x0423cC396ef9FB21B9De812859E9d4c6742ECE26"
+    "nftutilities:klaytn:upgrade": "yarn upgrade:klaytn --name NFTUtilities --address 0x403b08fB7951c017313b0f2eAfB4A2Fd98D4dF46",
+    "nftutilities:klaytn:verify": "yarn verify:klaytn  0x403b08fB7951c017313b0f2eAfB4A2Fd98D4dF46"
   },
   "author": "dirtycajunrice",
   "license": "GPL-3.0",
