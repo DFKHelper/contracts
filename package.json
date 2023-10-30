@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "yarn hardhat compile --show-stack-traces",
+    "compile": "npx hardhat compile --show-stack-traces",
     "deploy:dfk": "yarn hardhat --network dfk deploy",
     "deploy:klaytn": "yarn hardhat --network klaytn deploy",
     "upgrade:dfk": "yarn hardhat --network dfk upgrade",
@@ -22,7 +22,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "@nomiclabs/hardhat-etherscan": "3.1.7",
-    "@openzeppelin/contracts": "4.9.2",
+    "@openzeppelin/contracts": "4.9.3",
     "@openzeppelin/upgrades-core": "1.27.1",
     "dotenv": "16.3.1",
     "hardhat": "2.16.1",
@@ -32,7 +32,7 @@
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "2.2.3",
     "@nomiclabs/hardhat-waffle": "2.0.6",
-    "@openzeppelin/contracts-upgradeable": "4.9.2",
+    "@openzeppelin/contracts-upgradeable": "4.9.3",
     "@openzeppelin/hardhat-upgrades": "1.28.0",
     "ethers": "5.7.2"
   }

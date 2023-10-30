@@ -21,7 +21,7 @@ module.exports = {
   },
   networks: {
     dfk: {
-      url: `https://avax-dfk.gateway.pokt.network/v1/lb/6244818c00b9f0003ad1b619/ext/bc/q2aTwKuyzgs8pynF7UXBZCU7DejbZbZ6EUyHr3JQzYgwNPUPi/rpc`,
+      url: `https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc`,
       chainId: 53935,
       accounts,
     },
@@ -37,8 +37,8 @@ module.exports = {
         network: "dfk",
         chainId: 53935,
         urls: {
-          apiURL: "https://api.avascan.info/v2/network/mainnet/evm/53935/etherscan",
-          browserURL: "https://avascan.info/blockchain/dfk",
+          apiURL: "https://api.routescan.io/v2/network/mainnet/evm/53935/etherscan",
+          browserURL: "https://53935.routescan.io",
         },
       },
       {
